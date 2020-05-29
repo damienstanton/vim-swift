@@ -1,0 +1,13 @@
+*.DS_Store
+env/
+node_modules/
+.vscode/
+.idea/
+target/
+build/
+.gradle/
+**/*.rs.bk
+.metals/
+.bloop/
+.pytest_cache/
+.mypy_cache/
