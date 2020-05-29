@@ -8,15 +8,6 @@
 "
 " Copyright (c) 2020 Damien Stanton
 " Licensed under Apache License v2.0
-
-au BufNewFile,BufRead *.swift set ft=swift
-
-setlocal comments=s1:/*,mb:*,ex:*/,:///,://
-setlocal expandtab
-setlocal ts=2
-setlocal sw=2
-setlocal smartindent
-
 if exists("b:current_syntax")
     finish
 endif
